@@ -56,6 +56,7 @@ $$ Obj = \sum_{i} \left( 1 - \frac{\hat{f}_i^L}{\hat{f}_i^V} \right)^2 < 10^{-12
 
 6.  **K-Value Update:** If the convergence criterion is not met, update $K_i$ values and iterate from Step 2 until phase equilibrium is reached.
 7.  **HYSYS Validation:** Once equilibrium is achieved, the Python outputs are directly compared against Aspen HYSYS simulation results. Key evaluated parameters include Vapor Fraction ($\beta$), K-values ($K_i$), Phase Compositions ($x_i, y_i$), Compressibility Factors ($Z_{mix}, Z_{pure,i}$), and Henry's Constants ($H_i$).
-8.  **Error Analysis:** The model accuracy is quantified using (ARE):
+8.  **Error Analysis:** The model accuracy is quantified using Absolute Error (AE):
 
-$$ ARE (\%) = \left| \frac{Value_{Python} - Value_{HYSYS}}{Value_{Python}} \right| \times 100 $$
+$$ AE = | Value_{Python} - Value_{HYSYS} | $$
+
