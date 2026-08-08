@@ -59,4 +59,4 @@ $$ Obj = \sum_{i} \left( 1 - \frac{\hat{f}_i^L}{\hat{f}_i^V} \right)^2 < 10^{-12
 8.  **Error Analysis:** The model accuracy is quantified using Absolute Error (AE) and Absolute Relative Error (ARE):
 
 $$ AE = | Value_{Python} - Value_{HYSYS} | $$
-$$ ARE (\%) = \left| \frac{Value_{Python} - Value_{HYSYS}}{Value_{Python}} \right| \times 100 $$
+
