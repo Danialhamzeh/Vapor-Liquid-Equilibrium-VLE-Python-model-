@@ -17,7 +17,7 @@ A Python-based thermodynamic solver for Vapor-Liquid Equilibrium (VLE) modeling 
 *   **Vapor Phase:** Soave-Redlich-Kwong Equation of State (SRK-EOS).
 *   **Liquid Phase:** 
     *   Extended NRTL Activity Coefficient Model for condensable components.
-    *   Henry's Law for supercritical/non-condensable components.
+    *   Henry's Law for non-condensable components.
 
 ## Phase Fugacity Formulation
 
